@@ -19,7 +19,9 @@
     cd [path]
     ```
 
-4. Clone this repository into the `themes/` directory.
+4. Delete folder `archetypes`
+
+5. Clone this repository into the `themes/` directory.
 
     ```shell
     git clone https://github.com/medialesson/hugo-theme-event.git themes/event
@@ -32,7 +34,7 @@
     git submodule add https://github.com/medialesson/hugo-theme-event.git themes/event
     ```
 
-5. Go to the [endpoint
+6. Go to the [endpoint
    overview](https://sessionize.com/app/organizer/schedule/api/0) of your
    Sessionize event and create a new endpoint.
 
@@ -44,7 +46,7 @@
         - **Sessions:** Include Service Sessions
         - **Speakers:** Links
 
-6. Add and adapt the following minimal settings to your [Hugo
+7. Add and adapt the following minimal settings to your [Hugo
    configuration](https://gohugo.io/getting-started/configuration/):
     ```yaml
     theme: event
@@ -59,8 +61,8 @@
                 # 👇 and enter it here.
                 sessionizeId: 67poir7q
     ```
-7. Run Hugo in development mode:
+8. Run Hugo in development mode:
     ```shell
     hugo server
     ```
-8. View your event website on http://localhost:1313/.
+9. View your event website on http://localhost:1313/.
