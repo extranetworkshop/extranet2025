@@ -1,3 +1,6 @@
+theme: event
+
+defaultContentLanguage: en
 languages:
     en:
         languageName: English
@@ -17,29 +20,21 @@ languages:
                     # You can customize it to describe the event, highlight key aspects, or leave any important message.
                     # Markdown formatting is supported, allowing you to add links, bold text, and more.
                     aboutUs: |
-                        More information about the event will be added soon. Stay tuned! 🎉
-    de:
-        languageName: Deutsch
-        disabled: true
-        params:
-            themes:
-                event:
-                    slogan: Ein Hugo-Theme für Konferenzen
-                    description: |
-                        Dies ist ein Platzhalter für die Beschreibung Ihrer Veranstaltung.
-                        Sie können ihn zusammen mit allen anderen Einstellungen in Ihrer
-                        Hugo-Konfigurationsdatei anpassen. Wir wünschen Ihnen viel Spaß mit
-                        diesem Theme! 🎉
-                    directions: |
-                        Wegbeschreibung zum Veranstaltungsort mit öffentlichen Verkehrsmitteln.
-                        Passen Sie diesen Platzhaltertext in Ihrer Hugo-Konfigurationsdatei an oder entfernen Sie ihn,
-                        wenn er nicht benötigt wird.
-                    # 👇 This field provides an introduction or overview about the event or organization.
-                    # You can customize it to describe the event, highlight key aspects, or leave any important message.
-                    # Markdown formatting is supported, allowing you to add links, bold text, and more.
-                    aboutUs: |
-                        Weitere Informationen über die Veranstaltung werden bald hinzugefügt. Bleiben Sie dran! 🎉
+                        ### Mission
+                        We help companies and organizations to digital transform their business, products and processes through consulting,
+                        strategy, design, software development and training using cutting edge technology.
 
+                        ### Established
+                        - **2002** - Founded
+
+                        ### Our Team
+                        - **25+** Employees
+                        - **5** Nationalities
+
+                        ### Additional Info
+                        - We bring together diverse expertise and innovation.
+
+    
 params:
     themes:
         event:
