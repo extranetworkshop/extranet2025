@@ -27,7 +27,7 @@
     </a>
     <div class="speaker-card__social-links">
         {{ $ariaLabel := T "speakers_page.social_links" $input.name }}
-        {{- $hasSocialLinks := or $input.linkedinUrl $input.xUrl $input.companyUrl }}
+        {{- $hasSocialLinks := or $input.linkedinUrl $input.xUrl $input.companyUrl $input.emailAddress }}
 
         {{- if $hasSocialLinks }}
             {{- partial "social-links.html" (
@@ -35,6 +35,7 @@
                 "linkedinUrl" $input.linkedinUrl
                 "xUrl" $input.xUrl
                 "companyUrl" $input.companyUrl
+                "emailAddress" $input.emailAddress
                 "linkClass" "speaker-card__social-link"
                 "ariaLabel" $ariaLabel
                 )

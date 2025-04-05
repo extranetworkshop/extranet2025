@@ -8,9 +8,23 @@
     "content" $content
     "kind" "page"
     "path" "about"
-    "title" "About Us"
+    "title" "Organization"
     "type" "miscellaneous"
     "layout" "about"
+}}
+{{ .AddPage $page }}
+
+{{/* Create empty Call for Papers (cfp) page. */}}
+{{ $content := dict
+    "mediaType" "text/markdown"
+}}
+{{ $page := dict
+    "content" $content
+    "kind" "page"
+    "path" "cfp"
+    "title" "Call for Papers"
+    "type" "miscellaneous"
+    "layout" "cfp"
 }}
 {{ .AddPage $page }}
 
@@ -22,7 +36,7 @@
     "content" $content
     "kind" "page"
     "path" "sponsors"
-    "title" "Sponsors & Partners"
+    "title" "Sponsors"
     "type" "miscellaneous"
     "layout" "sponsors"
 }}
@@ -36,7 +50,7 @@
     "content" $content
     "kind" "page"
     "path" "location"
-    "title" "Location"
+    "title" "Venue"
     "type" "miscellaneous"
     "layout" "location"
 }}

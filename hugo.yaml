@@ -1,5 +1,3 @@
-theme: event
-
 defaultContentLanguage: en
 languages:
     _merge: deep
@@ -150,13 +148,13 @@ params:
                 - '00000000-0000-0000-0000-000000000002'
 
             colors:
-                primaryLighter: '#d7fb4d'
-                primary: '#c6eb4d'
-                primaryDarker: '#015a57'
                 primaryDarkest: '#111928'
                 secondary: '#f7f8fa'
                 secondaryDarker: '#637381'
-                track: '#015a57'
                 shadow: '#a6afc366'
+                primaryLighter: '#5CB1E8'
+                primary: '#0d81be'
+                primaryDarker: '#143e8b'
+                track: '#15B8CA'
             # 👇 Name of the category in Sessionize that is used to group sessions.
             trackCategoryTitle: Track

@@ -8,7 +8,8 @@
     {{ $sessions := where $input.sessionize.sessions "id" "in" $sessionIds }}
     {{ $xUrl := (index (where .links "linkType" "eq" "Twitter") 0).url }}
     {{ $linkedinUrl := (index (where .links "linkType" "eq" "LinkedIn") 0).url }}
-    {{ $companyUrl := (index (where .links "linkType" "eq" "Company_Website") 0).url }}
+    {{ $companyUrl := (index (where .links "linkType" "eq" "companyUrl") 0).url }}
+    {{ $emailAddress := (index (where .links "linkType" "eq" "emailAddress") 0).url }}
     {{ $params :=
         dict
         "speakerId" .id
@@ -18,6 +19,7 @@
         "xUrl" $xUrl
         "linkedinUrl" $linkedinUrl
         "companyUrl" $companyUrl
+        "emailAddress" $emailAddress
         "lastName" .lastName
         "firstName" .firstName
     }}

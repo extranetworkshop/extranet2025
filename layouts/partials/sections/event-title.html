@@ -11,6 +11,9 @@
             {{- $input.title }}
         </h1>
         <h2 class="event-title-section__subheading">
+            {{- $input.subtitle }}
+        </h2> 
+        <h2 class="event-title-section__subheading">
             {{- with $input.startDate }}
                 {{- . | time.AsTime | time.Format ":date_long" }},
             {{- end }}

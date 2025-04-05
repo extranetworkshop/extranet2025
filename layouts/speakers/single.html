@@ -10,7 +10,8 @@
                     "avatarAlt" page.Title
                     "linkedinUrl" page.Params.linkedinUrl
                     "xUrl" page.Params.xUrl
-                    "companyUrl" page.Params.company
+                    "companyUrl" page.Params.companyUrl
+                    "emailAddress" page.Params.emailAddress
                     "ariaLabel" $ariaLabel
                     )
                 }}
@@ -43,7 +44,7 @@
         {{ end }}
 
 
-        <div class="section-container section-container--dimmed">
+        <!--div class="section-container section-container--dimmed">
             <section class="section speaker-sessions-section">
                 <h1 class="h1 speaker-sessions-section__heading">
                     {{- T "speaker_page.sessions_by" | upper }}
@@ -58,7 +59,7 @@
                     )
                 }}
             </section>
-        </div>
+        </div-->
 
         {{- partial "sections/cta.html" (
             dict

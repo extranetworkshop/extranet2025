@@ -121,6 +121,7 @@
                         "xUrl" .Site.Params.themes.event.socialLinks.xUrl
                         "facebookUrl" .Site.Params.themes.event.socialLinks.facebookUrl
                         "companyUrl" .Site.Params.themes.event.socialLinks.companyUrl
+                        "emailAddress" .Site.Params.themes.event.socialLinks.emailAddress
                         "linkClass" "page-sidebar__social-link"
                         )
                     }}
@@ -182,7 +183,7 @@
             <section class="section section--short page-footer-section">
                 <div class="page-footer-section__start">
                     <!-- Label for assistive technologies only -->
-                    <label for="language-select" class="sr-only">{{ T "language_menu.label" }}</label>
+                    <!--label for="language-select" class="sr-only">{{ T "language_menu.label" }}</label>
                     <select id="language-select" class="select" name="language" onchange="location = this.value;">
                         {{ range $.Site.Home.AllTranslations }}
                             <option
@@ -193,7 +194,7 @@
                                 {{ or .Language.LanguageName .Language.Lang | upper }}
                             </option>
                         {{ end }}
-                    </select>
+                    </select-->
 
                     {{- partial "social-links.html" (
                         dict
@@ -201,6 +202,7 @@
                         "xUrl" .Site.Params.themes.event.socialLinks.xUrl
                         "facebookUrl" .Site.Params.themes.event.socialLinks.facebookUrl
                         "companyUrl" .Site.Params.themes.event.socialLinks.companyUrl
+                        "emailAddress" .Site.Params.themes.event.socialLinks.emailAddress
                         "linkClass" "page-footer-section__social-link"
                         "ariaLabel" (T "social-links_list.label")
                         )

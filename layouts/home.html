@@ -2,6 +2,7 @@
     {{- partial "sections/event-title.html"
         (dict
         "title" .Site.Params.themes.event.title
+        "subtitle" .Site.Params.themes.event.subtitle
         "location" .Site.Params.themes.event.location
         "startDate" .Site.Params.themes.event.startDate
         "backgroundImage" .Site.Params.themes.event.images.titleBackground
@@ -50,7 +51,8 @@
                 "description" .Params.tagLine
                 "linkedinUrl" .Params.linkedinUrl
                 "xUrl" .Params.xUrl
-                "companyUrl" .Params.company
+                "companyUrl" .Params.companyUrl
+                "emailAddress" .Params.emailAddress
                 )
             }}
         {{- end }}

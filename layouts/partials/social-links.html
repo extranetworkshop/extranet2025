@@ -11,6 +11,18 @@
 <label id="{{ $labelId }}" class="sr-only">{{ $input.ariaLabel }}</label>
 
 <ul class="social-links" aria-labelledby="{{ $labelId }}">
+    {{- if $input.emailAddress }}
+        <li class="social-links__menu-item">
+            <a
+                href="mailto:{{- $input.emailAddress }}"
+                aria-label="email"
+                ref="external"
+                class="social-links__link {{ $input.linkClass }}">
+                {{- partial "graphics/social/email.html" }}
+            </a>
+        </li>
+    {{ end }}
+
     {{- if $input.linkedinUrl }}
         <li class="social-links__menu-item">
             <a
