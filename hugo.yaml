@@ -2,101 +2,153 @@ theme: event
 
 defaultContentLanguage: en
 languages:
+    _merge: deep
     en:
-        languageName: English
-        disabled: true
+        disabled: false
+        menus:
+            main:
+                - identifier: cfp
+                  pageRef: /cfp
+                  weight: 10
+                - identifier: location
+                  pageRef: /location
+                  weight: 20
+                - identifier: sponsors
+                  pageRef: /sponsors
+                  weight: 30
+                - identifier: about
+                  pageRef: /about
+                  weight: 40
+            #footer:
+                #- identifier: privacy
+                #  pageRef: /privacy-policy
+                #  weight: 20
+            secondary:
+                - identifier: cfp 
+                  pageRef: /cfp
+                  weight: 10
+                  params:
+                      description: |
+                          Learn more about the topics that will be discussed at 
+                          this workshop and the important dates.
+                - identifier: location
+                  pageRef: /location
+                  weight: 20
+                  params:
+                      description: |
+                          Find out where the event will take place.
+                          This section provides details on the venue, directions, and nearby accommodations.
+                - identifier: about
+                  pageRef: /about
+                  weight: 30
+                  params:
+                      description: |
+                          Learn more about the people organizing the workshop.
         params:
             themes:
                 event:
-                    slogan: A Hugo Theme for Conferences
+                    slogan: The 1st workshop on EXplainable artificial intelligence for Trustworthy and Resilient Aerial NETworks
+                    location: Marrakesh, Morocco
                     description: |
-                        This is a placeholder for your event description. You can customize it,
-                        together with all other settings, in your Hugo configuration file.
-                        We hope you enjoy using this theme! 🎉
+                        #### Topics
+                        Uncrewed Aerial Vehicles (UAVs) are poised to serve as a cornerstone of next-generation 6G
+                        networks, enabling the realization of 3D Space-Air-Ground Integrated Networks (SAGINs). By
+                        operating synergistically with terrestrial infrastructure, High-Altitude Platforms (HAPs), and
+                        satellites, UAVs will play a pivotal role in achieving seamless 3D wireless connectivity. However,
+                        ensuring the safety, efficiency, and trustworthiness of UAV operations remains a critical
+                        challenge, particularly in dynamic environments characterized by heterogeneous wireless
+                        conditions, signal clutter, coverage variability, and adverse weather.
+
+                        Artificial Intelligence (AI), an inherent component of 6G ecosystems, offers transformative
+                        potential to address these challenges. Yet, the opaque decision-making processes of Machine
+                        Learning (ML) and Deep Learning (DL) models raise concerns about reliability and accountability in
+                        safety-critical UAV applications. Explainable AI (XAI) bridges this gap by fostering transparency, interpretability, and actionable insights for network optimization. Through XAI-driven
+                        frameworks, UAVs can dynamically synthesize high-resolution geospatial data, network coverage
+                        maps, and meteorological forecasts to optimize flight trajectories, enhance situational awareness,
+                        and ensure resilient connectivity via interpretable reasoning understandable by human operators.
+
+                        This workshop seeks to advance research at the intersection of AI-enabled 6G architectures and
+                        SAGINs, with a focus on UAV-enabled applications. 
+                        
+                        **We invite innovative contributions addressing,
+                        but not limited to, the following topics:**
+                        - Reliable UAV navigation in challenging environments;
+                        - XAI-driven frameworks for safety and trust in UAV decision-making;
+                        - Optimization strategies for SAGIN infrastructures;
+                        - Metrics evaluation for trustworthiness and resilience in AI and XAI-empowered SAGIN;
+                        - Energy-efficient AI and XAI-driven SAGINs;
+                        - Secure and resilient UAV communications;
+                        - Interoperability of UAVs in heterogeneous 6G networks and 3D SAGINs;
+                        - Ethical and regulatory implications of AI-driven UAV operations;
+                        - AI-powered SAGIN traffic management;
+                        - Innovative UAV-oriented use cases that demonstrates the effective integration of AI and XAI into 6G networks.
+
+                        By addressing these emerging challenges, the workshop will catalyze discussions on pioneering
+                        methodologies, interdisciplinary research directions, and technological breakthroughs to shape
+                        the future of intelligent, trustworthy 6G SAGIN ecosystems.
+                        #### Important Dates
+                        - Paper submission deadline: **July 15, 2025**
+                        - Paper acceptance notification: **August 15, 2025**
+                        - Camera ready & author registration: **September 1, 2025**
+                        #### Submission process
+                        Paper revision and presentation is managed through the
+                        EDAS system.
+                        #### Registration
+                        Workshop registration is automatically granted for people 
+                        that register to IEEE WiMob conference. 
+                        [Click here](//www.wimob.org/) for more details.
+                        #### Contact us
+                        For any inquiry, please contact us at **<pre>extranet-workshop</pre>** <pre>@</pre> **<pre>poliba.it</pre>**
                     directions: |
-                        Directions for getting to the location using public transportation. 
-                        Customize this placeholder text in your Hugo configuration file or remove it if not needed.
-                    # 👇 This field provides an introduction or overview about the event or organization.
-                    # You can customize it to describe the event, highlight key aspects, or leave any important message.
-                    # Markdown formatting is supported, allowing you to add links, bold text, and more.
-                    aboutUs: |
-                        ### Mission
-                        We help companies and organizations to digital transform their business, products and processes through consulting,
-                        strategy, design, software development and training using cutting edge technology.
-
-                        ### Established
-                        - **2002** - Founded
-
-                        ### Our Team
-                        - **25+** Employees
-                        - **5** Nationalities
-
-                        ### Additional Info
-                        - We bring together diverse expertise and innovation.
-
+                       IEEE EXTRANET Workshop takes place in conjunction with IEEE WiMob 2025. For more information on the venue, registration, and how to reach it, please visit the [conference related page](http://www.wimob.org/wimob2025/venue.php). 
+                    aboutUs: 
     
 params:
     themes:
         event:
-            # 👇 Fetch the ID of your event's API endpoint from
-            # 👇 https://sessionize.com/app/organizer/schedule/api/0
-            # 👇 and enter it here.
-            sessionizeId:
-            title: Your Event Title
-            # 👇 An optional short version of your event's title. Only use it if
-            # 👇 your event title is very long. The short title may be used in
-            # 👇 places where space is limited, such as on mobile devices or in the header menu.
-            shortTitle:
-            startDate: 2026-06-01
-            endDate: 2026-06-03
-            location: City, Country
+            sessionizeId: workshop
+            title: IEEE EXTRANET Workshop 2025
+            subtitle: in conjunction with IEEE WiMob 2025
+            shortTitle: IEEE EXTRANET Workshop
+            startDate: 2025-10-20
+            endDate: 2025-10-20
             address:
-                - Building
-                - Street
-                - City
-                - Country
+                - Grand Mogador Menara
+                - Boulevard Mohamed VI, 
+                - 40000 Marrakesh, 
+                - Morocco
             map:
-                # 👇 Get an embeddable map URL from OpenStreetMap
-                # 👇 https://wiki.openstreetmap.org/wiki/Export#Embeddable_HTML
-                # 👇 or Google Maps
-                # 👇 https://developers.google.com/maps/documentation/embed/embedding-map
-                # 👇 and enter it here.
-                embeddableMapUrl:
-                # 👇 Enter a URL of a larger map representation (not required for Google Maps).
-                viewLargerMapUrl:
+                #embeddableMapUrl: //umap.openstreetmap.fr/en/map/medialesson-gmbh_1105977?scrollWheelZoom=false
+                #viewLargerMapUrl: //umap.openstreetmap.fr/en/map/medialesson-gmbh_1105977
+                # Link to edit the map: https://umap.openstreetmap.fr/en/map/anonymous-edit/1105977:HjtVVnbwCn6Yi3O02DTPnspzuyoHvP_Kn-M9rE53eE8
             callToAction:
                 eventbrite:
-                    # 👇 Get your Eventbrite event ID from the URL of your event page
-                    # 👇 and enter it here.
-                    eventId:
-                other:
-                    # 👇 Enter the URL of your ticket shop here.
-                    url:
-                enableBanner: true
+                    eventId: test
             socialLinks:
-                xUrl:
-                facebookUrl:
-                linkedinUrl:
-            favicon: favicon.ico
+                #xUrl: https://x.com/medialesson
+                #facebookUrl: https://www.facebook.com/medialesson/
+                #linkedinUrl: https://de.linkedin.com/company/medialesson-gmbh
             images:
-                logo: logos/medialesson-rgb.svg
-                titleBackground: images/pexels-scottwebb-1048039.webp
-                # 👇 Image showcasing the building or venue where the event will take place.
-                location:
+                logo:
+                titleBackground: images/paul-macallan-CFKksjYRSQ8-unsplash.jpg
+                location: images/hotel.jpg
             sponsors:
-                - logo:
-                  url:
-                  # 👇 This name is used as the alt text for the logo
-                  name:
-            partners:
-                - logo:
-                  url:
-                  # 👇 This name is used as the alt text for the logo
-                  name:
-            # 👇 List of Sessionize speaker IDs of speakers that organize the event.
+#                - logo: logos/ieee-mb-blue.png
+#                  url: //ieee.org/
+#                  name: 'IEEE'
+#                - logo: logos/ieee-comsoc.png
+#                  url: //comsoc.org/
+#                  name: 'IEEE Communications Society'
+                - logo: logos/swimob.png
+                  url: //wimob.org/
+                  name: '21th International Conference on Wireless and Mobile Computing, Networking and Communications'
+
             organizers:
-            # 👇 List of Sessionize session IDs of highlight sessions.
-            featuredSessions:
+                - '00000000-0000-0000-0000-000000000000'
+                - '00000000-0000-0000-0000-000000000001'
+                - '00000000-0000-0000-0000-000000000004'
+                - '00000000-0000-0000-0000-000000000002'
+
             colors:
                 primaryLighter: '#d7fb4d'
                 primary: '#c6eb4d'

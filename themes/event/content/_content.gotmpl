@@ -1,0 +1,57 @@
+{{ .EnableAllLanguages }}
+
+{{/* Create empty about us page (template: `layouts/miscellaneous/about`). */}}
+{{ $content := dict
+    "mediaType" "text/markdown"
+}}
+{{ $page := dict
+    "content" $content
+    "kind" "page"
+    "path" "about"
+    "title" "Organization"
+    "type" "miscellaneous"
+    "layout" "about"
+}}
+{{ .AddPage $page }}
+
+{{/* Create empty Call for Papers (cfp) page. */}}
+{{ $content := dict
+    "mediaType" "text/markdown"
+}}
+{{ $page := dict
+    "content" $content
+    "kind" "page"
+    "path" "cfp"
+    "title" "Call for Papers"
+    "type" "miscellaneous"
+    "layout" "cfp"
+}}
+{{ .AddPage $page }}
+
+{{/* Create empty sponsors page (template: `layouts/miscellaneous/sponsors`). */}}
+{{ $content := dict
+    "mediaType" "text/markdown"
+}}
+{{ $page := dict
+    "content" $content
+    "kind" "page"
+    "path" "sponsors"
+    "title" "Sponsors"
+    "type" "miscellaneous"
+    "layout" "sponsors"
+}}
+{{ .AddPage $page }}
+
+{{/* Create empty sponsors page (template: `layouts/miscellaneous/location`). */}}
+{{ $content := dict
+    "mediaType" "text/markdown"
+}}
+{{ $page := dict
+    "content" $content
+    "kind" "page"
+    "path" "location"
+    "title" "Venue"
+    "type" "miscellaneous"
+    "layout" "location"
+}}
+{{ .AddPage $page }}

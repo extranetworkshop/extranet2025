@@ -1,0 +1,437 @@
+{
+    "sessions": [
+        {
+            "id": "b99eb568-4f2c-4fd9-8ec6-a1326b961dfc",
+            "title": "Registration",
+            "description": null,
+            "startsAt": "2025-01-30T11:00:00",
+            "endsAt": "2025-01-30T12:00:00",
+            "isServiceSession": true,
+            "isPlenumSession": false,
+            "speakers": [],
+            "categoryItems": [],
+            "questionAnswers": [],
+            "roomId": 52655,
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": null,
+            "isInformed": false,
+            "isConfirmed": false
+        },
+        {
+            "id": "729573",
+            "title": "Emma's Session",
+            "description": "Usually, you would find a session description here. But, this is not a real session submission, so let just say we'll talk about Illustration, Personal branding, Consumer. Ha!",
+            "startsAt": "2025-01-30T12:00:00",
+            "endsAt": "2025-01-30T13:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": ["00000000-0000-0000-0000-000000000002"],
+            "categoryItems": [290678, 290680, 290686, 290687],
+            "questionAnswers": [],
+            "roomId": 52655,
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": "Accepted",
+            "isInformed": false,
+            "isConfirmed": false
+        },
+        {
+            "id": "729574",
+            "title": "Olivia's Session",
+            "description": "Usually, you would find a session description here. But, this is not a real session submission, so let just say we'll talk about Personal branding, Coffee, Shoe. Ha!",
+            "startsAt": "2025-01-30T12:00:00",
+            "endsAt": "2025-01-30T13:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": ["00000000-0000-0000-0000-000000000003"],
+            "categoryItems": [290679, 290681, 290685, 290693],
+            "questionAnswers": [],
+            "roomId": 52656,
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": "Accepted",
+            "isInformed": false,
+            "isConfirmed": false
+        },
+        {
+            "id": "3447531d-f78e-4ca0-8b80-22368909baa4",
+            "title": "Coffee Break",
+            "description": null,
+            "startsAt": "2025-01-30T13:00:00",
+            "endsAt": "2025-01-30T14:00:00",
+            "isServiceSession": true,
+            "isPlenumSession": false,
+            "speakers": [],
+            "categoryItems": [],
+            "questionAnswers": [],
+            "roomId": 52655,
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": null,
+            "isInformed": false,
+            "isConfirmed": false
+        },
+        {
+            "id": "729572",
+            "title": "Jackson's Session",
+            "description": "Usually, you would find a session description here. But, this is not a real session submission, so let just say we'll talk about Board games, Coffee, Psychology. Ha!",
+            "startsAt": "2025-01-30T14:00:00",
+            "endsAt": "2025-01-30T15:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": ["00000000-0000-0000-0000-000000000001"],
+            "categoryItems": [290679, 290681, 290684, 290691],
+            "questionAnswers": [],
+            "roomId": 52655,
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": "Accepted",
+            "isInformed": false,
+            "isConfirmed": false
+        },
+        {
+            "id": "729571",
+            "title": "Mastering Personal Branding in the Digital Age",
+            "description": "In this engaging session, we will explore the essential strategies for building and maintaining a strong personal brand in today's digital landscape. Learn how to leverage social media, create compelling content, and effectively communicate your unique value proposition. Whether you're a professional looking to enhance your career prospects or an entrepreneur aiming to stand out in a crowded market, this session will provide actionable insights and practical tips to elevate your personal brand.",
+            "startsAt": "2025-01-30T14:00:00",
+            "endsAt": "2025-01-30T15:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": ["00000000-0000-0000-0000-000000000000", "00000000-0000-0000-0000-000000000001"],
+            "categoryItems": [290678, 290680, 290683, 290687],
+            "questionAnswers": [],
+            "roomId": 52656,
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": "Accepted",
+            "isInformed": false,
+            "isConfirmed": false
+        },
+        {
+            "id": "3861063a-4d99-4aef-b4f2-ca3834218de8",
+            "title": "Lunch",
+            "description": "Take a break and enjoy a delicious lunch while networking with fellow attendees. This is a great opportunity to relax, recharge, and discuss the morning sessions with peers. Whether you're looking to make new connections or catch up with old friends, this lunch session provides a perfect setting to foster meaningful conversations and collaborations.",
+            "startsAt": "2025-01-30T15:00:00",
+            "endsAt": "2025-01-30T16:00:00",
+            "isServiceSession": true,
+            "isPlenumSession": false,
+            "speakers": [],
+            "categoryItems": [],
+            "questionAnswers": [],
+            "roomId": 52655,
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": null,
+            "isInformed": false,
+            "isConfirmed": false
+        },
+        {
+            "id": "729576",
+            "title": "Building Scalable Microservices with Kubernetes",
+            "description": "Explore the world of microservices and learn how to build scalable, resilient applications using Kubernetes. This session will cover the fundamentals of microservices architecture, containerization, and orchestration with Kubernetes. Attendees will gain practical insights into deploying, managing, and scaling microservices in a cloud-native environment. Whether you're a developer, architect, or DevOps engineer, this session will equip you with the knowledge to leverage Kubernetes for your next project.",
+            "startsAt": "2025-01-30T16:00:00",
+            "endsAt": "2025-01-30T17:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": ["00000000-0000-0000-0000-000000000005"],
+            "categoryItems": [290679, 290682, 290683, 290691],
+            "questionAnswers": [],
+            "roomId": 52656,
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": "Accepted",
+            "isInformed": false,
+            "isConfirmed": false
+        },
+        {
+            "id": "729579",
+            "title": "The Future of AI: Trends and Innovations",
+            "description": "Join us for an insightful session where we explore the latest trends and innovations in artificial intelligence. From cutting-edge research to practical applications, this session will cover a wide range of topics that are shaping the future of AI. Whether you're a seasoned professional or just starting out, you'll gain valuable insights and knowledge to stay ahead in this rapidly evolving field.",
+            "startsAt": "2025-01-31T13:00:00",
+            "endsAt": "2025-01-31T14:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": ["00000000-0000-0000-0000-000000000008"],
+            "categoryItems": [290679, 290682, 290684, 290694],
+            "questionAnswers": [],
+            "roomId": 52655,
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": "Accepted",
+            "isInformed": false,
+            "isConfirmed": false
+        },
+        {
+            "id": "729575",
+            "title": "Aiden's Session",
+            "description": "Usually, you would find a session description here. But, this is not a real session submission, so let just say we'll talk about Interview, Consumer, Psychology. Ha!",
+            "startsAt": "2025-01-31T13:00:00",
+            "endsAt": "2025-01-31T14:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": ["00000000-0000-0000-0000-000000000004"],
+            "categoryItems": [290678, 290681, 290683, 290691],
+            "questionAnswers": [],
+            "roomId": 52656,
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": "Accepted",
+            "isInformed": false,
+            "isConfirmed": false
+        },
+        {
+            "id": "906e19b8-cf7b-435b-8ee3-2f695ef71f81",
+            "title": "Lunch",
+            "description": null,
+            "startsAt": "2025-01-31T14:00:00",
+            "endsAt": "2025-01-31T15:00:00",
+            "isServiceSession": true,
+            "isPlenumSession": false,
+            "speakers": [],
+            "categoryItems": [],
+            "questionAnswers": [],
+            "roomId": 52655,
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": null,
+            "isInformed": false,
+            "isConfirmed": false
+        },
+        {
+            "id": "729577",
+            "title": "Liam's Session",
+            "description": "Usually, you would find a session description here. But, this is not a real session submission, so let just say we'll talk about Technology, Personal branding, Illustration. Ha!",
+            "startsAt": "2025-01-31T15:00:00",
+            "endsAt": "2025-01-31T16:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": ["00000000-0000-0000-0000-000000000006"],
+            "categoryItems": [290679, 290682, 290685, 290692],
+            "questionAnswers": [],
+            "roomId": 52655,
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": "Accepted",
+            "isInformed": false,
+            "isConfirmed": false
+        },
+        {
+            "id": "729578",
+            "title": "Noah's Session",
+            "description": "Usually, you would find a session description here. But, this is not a real session submission, so let just say we'll talk about Coffee, Human resources, Illustration. Ha!",
+            "startsAt": "2025-01-31T15:00:00",
+            "endsAt": "2025-01-31T16:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": ["00000000-0000-0000-0000-000000000007"],
+            "categoryItems": [290677, 290682, 290684, 290689],
+            "questionAnswers": [],
+            "roomId": 52656,
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": "Accepted",
+            "isInformed": false,
+            "isConfirmed": false
+        }
+    ],
+    "speakers": [
+        {
+            "id": "00000000-0000-0000-0000-000000000004",
+            "firstName": "Giovanni",
+            "lastName": "Grieco",
+            "bio": "Giovanni received the Ph.D. degree in Electrical and Information Engineering from Politecnico di Bari, Italy, in February 2025. His research interests include drones, Cybersecurity, and Future Networking Architectures. He is the maintainer of IoD-Sim, a network simulator for space-air-ground integrated networks. Since 2024 he has been collaborating with the Joint Research Centre of the European Commission for research in Counter-Unmanned Aircraft Systems.",
+            "tagLine": "Independent Researcher",
+            "profilePicture": "https://lh6.googleusercontent.com/-NVwJnfvecCs/AAAAAAAAAAI/AAAAAAAAAAA/y_WrcnQdaM8/s192-c-mo/photo.jpg",
+            "isTopSpeaker": true,
+            "links": [
+                {
+                    "title": "email",
+                    "url": "giovanni AT grieco.dev",
+                    "linkType": "emailAddress"
+                },
+                {
+                    "title": "website",
+                    "url": "https://giovanni.grieco.dev/",
+                    "linkType": "companyUrl"
+                },
+                {
+                    "title": "LinkedIn",
+                    "url": "http://www.linkedin.com/in/giovanni-grieco",
+                    "linkType": "LinkedIn"
+                }
+            ],
+            "sessions": [],
+            "fullName": "Giovanni Grieco",
+            "categoryItems": [],
+            "questionAnswers": []
+        },
+        {
+            "id": "00000000-0000-0000-0000-000000000001",
+            "firstName": "Arcangela",
+            "lastName": "Rago",
+            "bio": "Arcangela received the Ph.D. degree in Electrical and Information Engineering from Politecnico di Bari, Bari, Italy, in January 2022, where she is currently a Tenure Track Assistant Professor RTT in Telecommunications at the Department of Electrical and Information Engineering. Her main research interests include machine learning and data analytics for network optimization, 6G systems, and Integrated Terrestrial and Non-Terrestrial Networks.",
+            "tagLine": "Assistant Professor, Politecnico di Bari, Italy",
+            "profilePicture": "https://telematics.poliba.it/wp-content/uploads/2023/12/Foto-Rago-2023-1-768x770.jpg",
+            "isTopSpeaker": false,
+            "links": [
+                {
+                    "title": "email",
+                    "url": "arcangela.rago AT poliba.it",
+                    "linkType": "emailAddress"
+                },
+                {
+                    "title": "website",
+                    "url": "https://telematics.poliba.it/arcangela-rago",
+                    "linkType": "companyUrl"
+                },
+                {
+                    "title": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/arcangela-rago-108243108/",
+                    "linkType": "LinkedIn"
+                }
+            ],
+            "sessions": [],
+            "fullName": "Arcangela Rago",
+            "categoryItems": [],
+            "questionAnswers": []
+        }
+    ],
+    "questions": [],
+    "categories": [
+        {
+            "id": 81731,
+            "title": "Session format",
+            "items": [
+                {
+                    "id": 290677,
+                    "name": "Lightning talk",
+                    "sort": 1
+                },
+                {
+                    "id": 290678,
+                    "name": "Session",
+                    "sort": 2
+                },
+                {
+                    "id": 290679,
+                    "name": "Workshop",
+                    "sort": 3
+                }
+            ],
+            "sort": 0,
+            "type": "session"
+        },
+        {
+            "id": 81732,
+            "title": "Track",
+            "items": [
+                {
+                    "id": 290680,
+                    "name": "Business",
+                    "sort": 1
+                },
+                {
+                    "id": 290681,
+                    "name": "Technical",
+                    "sort": 2
+                },
+                {
+                    "id": 290682,
+                    "name": "Scientific",
+                    "sort": 3
+                }
+            ],
+            "sort": 1,
+            "type": "session"
+        },
+        {
+            "id": 81733,
+            "title": "Level",
+            "items": [
+                {
+                    "id": 290683,
+                    "name": "Introductory and overview",
+                    "sort": 1
+                },
+                {
+                    "id": 290684,
+                    "name": "Intermediate",
+                    "sort": 2
+                },
+                {
+                    "id": 290685,
+                    "name": "Advanced",
+                    "sort": 3
+                },
+                {
+                    "id": 290686,
+                    "name": "Expert",
+                    "sort": 4
+                }
+            ],
+            "sort": 2,
+            "type": "session"
+        },
+        {
+            "id": 81734,
+            "title": "Language",
+            "items": [
+                {
+                    "id": 290687,
+                    "name": "English",
+                    "sort": 1
+                },
+                {
+                    "id": 290688,
+                    "name": "Spanish",
+                    "sort": 2
+                },
+                {
+                    "id": 290689,
+                    "name": "German",
+                    "sort": 3
+                },
+                {
+                    "id": 290690,
+                    "name": "Italian",
+                    "sort": 4
+                },
+                {
+                    "id": 290691,
+                    "name": "French",
+                    "sort": 5
+                },
+                {
+                    "id": 290692,
+                    "name": "Chinese",
+                    "sort": 6
+                },
+                {
+                    "id": 290693,
+                    "name": "Arabic",
+                    "sort": 7
+                },
+                {
+                    "id": 290694,
+                    "name": "Portuguese",
+                    "sort": 8
+                }
+            ],
+            "sort": 3,
+            "type": "session"
+        }
+    ],
+    "rooms": [
+        {
+            "id": 52655,
+            "name": "Room 1",
+            "sort": 0
+        },
+        {
+            "id": 52656,
+            "name": "Room 2",
+            "sort": 1
+        }
+    ]
+}

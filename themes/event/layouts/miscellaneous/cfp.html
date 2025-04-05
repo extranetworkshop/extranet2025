@@ -1,0 +1,21 @@
+{{ define "main" }}
+    {{ $event := .Site.Params.themes.event }}
+
+    <div class="section-container">
+        <section class="section about">
+            <h1 class="heading heading--1">{{- T "cfp_page.heading" }}</h1>
+            {{ with $event.description }}
+                <div class="markdown about__text">
+                    {{ . | markdownify }}
+                </div>
+            {{ end }}
+        </section>
+    </div>
+
+    {{- partial "sections/cta.html" (
+        dict
+        "eventbriteId" $event.callToAction.eventbrite.eventId
+        "ctaUrl" $event.callToAction.other.url
+        )
+    }}
+{{ end }}
