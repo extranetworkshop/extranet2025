@@ -131,15 +131,18 @@ params:
                 titleBackground: images/paul-macallan-CFKksjYRSQ8-unsplash.jpg
                 location: images/hotel.jpg
             sponsors:
-#                - logo: logos/ieee-mb-blue.png
-#                  url: //ieee.org/
-#                  name: 'IEEE'
-#                - logo: logos/ieee-comsoc.png
-#                  url: //comsoc.org/
-#                  name: 'IEEE Communications Society'
+                - logo: logos/ieee-mb-blue.png
+                  url: //ieee.org/
+                  name: 'IEEE'
+                - logo: logos/ieee-comsoc.png
+                  url: //comsoc.org/
+                  name: 'IEEE Communications Society'
                 - logo: logos/swimob.png
                   url: http://wimob.org/
                   name: '21th International Conference on Wireless and Mobile Computing, Networking and Communications'
+                - logo: logos/lia-logo.png
+                  url: //lia.univ-avignon.fr/
+                  name: Laboratoire Informatique d'Avignon - Avignon Université
 
             organizers:
                 - '00000000-0000-0000-0000-000000000000'
