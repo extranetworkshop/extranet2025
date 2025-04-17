@@ -94,7 +94,7 @@ languages:
                         #### Registration
                         Workshop registration is automatically granted for people 
                         that register to IEEE WiMob conference. 
-                        [Click here](//www.wimob.org/) for more details.
+                        [Click here](http://www.wimob.org/) for more details.
                         #### Contact us
                         For any inquiry, please contact us at **<pre>extranet-workshop</pre>** <pre>@</pre> **<pre>poliba.it</pre>**
                     directions: |
@@ -138,7 +138,7 @@ params:
 #                  url: //comsoc.org/
 #                  name: 'IEEE Communications Society'
                 - logo: logos/swimob.png
-                  url: //wimob.org/
+                  url: http://wimob.org/
                   name: '21th International Conference on Wireless and Mobile Computing, Networking and Communications'
 
             organizers:
