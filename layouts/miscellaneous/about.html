@@ -3,13 +3,13 @@
     {{- $organizers := slice }}
     {{- $organizerIds := .Site.Params.themes.event.organizers }}
 
-
     <div class="section-container">
         <section class="section about">
             <h1 class="heading heading--1">{{- T "about_page.heading" }}</h1>
             {{ with $event.aboutUs }}
                 <div class="markdown about__text">
                     {{ . | markdownify }}
+                    <br /><br />
                 </div>
             {{ end }}
 

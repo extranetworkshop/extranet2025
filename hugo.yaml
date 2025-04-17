@@ -100,6 +100,7 @@ languages:
                     directions: |
                        IEEE EXTRANET Workshop takes place in conjunction with IEEE WiMob 2025. For more information on the venue, registration, and how to reach it, please visit the [conference related page](http://www.wimob.org/wimob2025/venue.php). 
                     aboutUs: 
+                        For any inquiry, please contact us at **<pre>extranet-workshop</pre>** <pre>@</pre> **<pre>poliba.it</pre>**
     
 params:
     themes:
@@ -128,19 +129,19 @@ params:
                 #linkedinUrl: https://de.linkedin.com/company/medialesson-gmbh
             images:
                 logo:
-                titleBackground: images/paul-macallan-CFKksjYRSQ8-unsplash.jpg
-                location: images/hotel.jpg
+                titleBackground: images/paul-macallan-CFKksjYRSQ8-unsplash.webp
+                location: images/hotel.webp
             sponsors:
-                - logo: logos/ieee-mb-blue.png
+                - logo: logos/ieee-mb-blue.webp
                   url: //ieee.org/
                   name: 'IEEE'
-                - logo: logos/ieee-comsoc.png
+                - logo: logos/ieee-comsoc.webp
                   url: //comsoc.org/
                   name: 'IEEE Communications Society'
-                - logo: logos/swimob.png
+                - logo: logos/swimob.webp
                   url: http://wimob.org/
                   name: '21th International Conference on Wireless and Mobile Computing, Networking and Communications'
-                - logo: logos/lia-logo.png
+                - logo: logos/lia-logo.webp
                   url: //lia.univ-avignon.fr/
                   name: Laboratoire Informatique d'Avignon - Avignon Université
 
