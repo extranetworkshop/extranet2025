@@ -22,12 +22,12 @@ languages:
                 #  pageRef: /privacy-policy
                 #  weight: 20
             secondary:
-                - identifier: cfp 
+                - identifier: cfp
                   pageRef: /cfp
                   weight: 10
                   params:
                       description: |
-                          Learn more about the topics that will be discussed at 
+                          Learn more about the topics that will be discussed at
                           this workshop and the important dates.
                 - identifier: location
                   pageRef: /location
@@ -66,8 +66,8 @@ languages:
                         and ensure resilient connectivity via interpretable reasoning understandable by human operators.
 
                         This workshop seeks to advance research at the intersection of AI-enabled 6G architectures and
-                        SAGINs, with a focus on UAV-enabled applications. 
-                        
+                        SAGINs, with a focus on UAV-enabled applications.
+
                         **We invite innovative contributions addressing,
                         but not limited to, the following topics:**
                         - Reliable UAV navigation in challenging environments;
@@ -92,29 +92,29 @@ languages:
                         Paper revision and presentation is managed through the
                         EDAS system.
                         #### Registration
-                        Workshop registration is automatically granted for people 
-                        that register to IEEE WiMob conference. 
+                        Workshop registration is automatically granted for people
+                        that register to IEEE WiMob conference.
                         [Click here](http://www.wimob.org/) for more details.
                         #### Contact us
                         For any inquiry, please contact us at **<pre>extranet-workshop</pre>** <pre>@</pre> **<pre>poliba.it</pre>**
                     directions: |
-                       IEEE EXTRANET Workshop takes place in conjunction with IEEE WiMob 2025. For more information on the venue, registration, and how to reach it, please visit the [conference related page](http://www.wimob.org/wimob2025/venue.php). 
-                    aboutUs: 
+                       IEEE EXTRANET Workshop takes place in conjunction with IEEE WiMob 2025. For more information on the venue, registration, and how to reach it, please visit the [conference related page](http://www.wimob.org/wimob2025/venue.php).
+                    aboutUs:
                         For any inquiry, please contact us at **<pre>extranet-workshop</pre>** <pre>@</pre> **<pre>poliba.it</pre>**
-    
+
 params:
     themes:
         event:
             sessionizeId: workshop
             title: IEEE EXTRANET Workshop 2025
-            subtitle: in conjunction with IEEE WiMob 2025
+            subtitle: in conjunction with
             shortTitle: IEEE EXTRANET Workshop
             startDate: 2025-10-20
             endDate: 2025-10-20
             address:
                 - Grand Mogador Menara
-                - Boulevard Mohamed VI, 
-                - 40000 Marrakesh, 
+                - Boulevard Mohamed VI,
+                - 40000 Marrakesh,
                 - Morocco
             map:
                 #embeddableMapUrl: //umap.openstreetmap.fr/en/map/medialesson-gmbh_1105977?scrollWheelZoom=false
@@ -141,9 +141,6 @@ params:
                 - logo: logos/swimob.webp
                   url: http://wimob.org/
                   name: '21th International Conference on Wireless and Mobile Computing, Networking and Communications'
-                - logo: logos/lia-logo.webp
-                  url: //lia.univ-avignon.fr/
-                  name: Laboratoire Informatique d'Avignon - Avignon Université
 
             organizers:
                 - '00000000-0000-0000-0000-000000000000'
